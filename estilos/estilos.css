@@ -477,9 +477,9 @@ header{
  .cabecera{
  	height: 50px;
  	position: fixed;
- 	top: 2px;
+ 	top: 0px;
  	width: 100%;
- 	z-index: 100;
+ 	z-index: 101;
  	background-image: url("../images/rosa-responsive.jpg");
  	
  }
