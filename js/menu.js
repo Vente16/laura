@@ -40,11 +40,7 @@ $(document).ready(function(){
  
    });
 
-    
-  var cabecera  = $(".cabecera").height();
-  var menu  = $(".menu").height();
-  var aside  = $(".aside").height();
-  var slider =  $("#myCarousel").height();
+ 
 
 
 
