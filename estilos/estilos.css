@@ -480,7 +480,9 @@ header{
  	top: 0px;
  	width: 100%;
  	z-index: 101;
- 	background-image: url("../images/rosa-responsive.jpg");
+  clear: both;
+  background-color: white;
+ 	/*background-image: url("../images/rosa.jpg"); */
  	
  }
 
@@ -491,7 +493,7 @@ header{
   .aside {
 	text-align: center;
 	color: #9E235B;
-	position: relative;
+	position: absolute;
 	top: 100px;
 	word-break: break-all;
 }
