@@ -19,9 +19,7 @@ $(document).ready(function(){
       $("#botonClose").show();
       $("#botonClose").addClass("btn-close-responsive");
       $(".menu").removeClass("menu");
-      $(".cabecera").hidde();
-      //$("aside").addClass("aside-responve"); 
-       
+
       
    }); 
 
@@ -35,13 +33,11 @@ $(document).ready(function(){
        $("nav li span").removeClass();
        $("#botonClose").removeClass("btn-close-responsive");
        $("#botonClose").css("display", "none");
-       $(".cabecera").hidde();
+      
 
  
    });
-
- 
-
+   
 
 
 });
