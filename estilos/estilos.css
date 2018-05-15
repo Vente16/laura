@@ -665,7 +665,7 @@ article h2 {
   
   .mapa iframe {
     position: relative;
-    top: 50px;
+    top: 50%;
     left: 10%;
     height: 250px;
     width: 90%;
