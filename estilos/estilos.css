@@ -500,11 +500,8 @@ article h2 {
     display: flex;
   }
 
-  .form-contacto {
-    position: relative;
-    margin-top: 50px;
-    margin-left: 0px;
-    width: 90%;
+  .form-contacto input {
+    display: none;
   }
 }
 @media only screen and (min-device-width: 901px) and (max-device-width: 1200px) {
