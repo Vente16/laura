@@ -483,6 +483,9 @@ article h2 {
   border-right: none;
 }
 
+ 
+
+
 
 }
 @media only screen and (max-width: 1200px) {
@@ -491,6 +494,17 @@ article h2 {
     top: 90px;
     left: 15%;
     border-right: none;
+  }
+
+  .mapa {
+    display: flex;
+  }
+
+  .form-contacto {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 90%;
   }
 }
 @media only screen and (min-device-width: 901px) and (max-device-width: 1200px) {
@@ -657,14 +671,15 @@ article h2 {
   .form-contacto {
     position: relative;
     margin-top: 50px;
-    display: flex;
-    width: 90%;
+    width: 80%;
+
   }
+
+ 
+
+
   
-  .mapa {
-    display: flex;
-  }
-  
+ 
   .mapa iframe {
     position: relative;
     top: 50px;
