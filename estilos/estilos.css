@@ -84,7 +84,7 @@ header {
   height: 100px;
   position: relative;
   left: 30%;
-  opacity: 0.9
+  
 }
 
 .social {
@@ -194,10 +194,13 @@ header {
 
 video[poster] {
   width: 100%;
+  height: 215px;
+  background-color: #000;
 }
 
 video {
-  height: 100%;
+   height: 250px;
+   width: 100%;
 }
 
 .carousel {
@@ -443,10 +446,14 @@ article h2 {
   }
 }
 
+.first{
+  border: none;
+}
+
 .img-principal {
-  height: 80px;
+  height: 90px;
   position: relative;
-  left: 20%;
+  left: 30%;
 }
 
 .social {
@@ -483,7 +490,6 @@ article h2 {
   border-right: none;
 }
 
- 
 
 
 
@@ -500,9 +506,11 @@ article h2 {
     display: flex;
   }
 
-  .form-contacto input {
-    display: none;
+  .form-control{
+     display: none !important;
   }
+
+  
 }
 @media only screen and (min-device-width: 901px) and (max-device-width: 1200px) {
   .first iframe {
@@ -550,7 +558,8 @@ article h2 {
   
   .img-principal {
     height: 90%;
-    margin: 0 auto;
+    position: relative;
+    left: 20%;
   }
   
   .social a {
@@ -600,7 +609,6 @@ article h2 {
     height: 420px;
     margin-left: 5px;
     margin-right: 80px;
-    border-top: 2px solid #9E235B;
     padding-bottom: 100px;
     text-align: center;
     width: 100%;
